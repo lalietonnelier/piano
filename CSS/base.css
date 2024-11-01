@@ -1,0 +1,30 @@
+@import "layout.css";
+@import "components.css";
+@import "forms.css";
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+
+    background-color: #fef6e7;
+    color: #333;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    margin: 15px;
+    text-align: center;
+
+}
+
+p {
+    margin: 2 2 10px;
+}
+
+/* Couleurs */
+:root {
+    --main-color: #91a3b0;
+    --secondary-color: #333;
+    --bg-light: #f3f4f6;
+}
+

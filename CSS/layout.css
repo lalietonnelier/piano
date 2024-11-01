@@ -1,0 +1,28 @@
+
+.banner {
+    background-color: #cbba96;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    width: 110vw; 
+    height: 90px; 
+}
+
+.lesson-container, .contact-form, .social-media {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-image {
+    width: 100%;
+    max-width: 10000px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Responsivité */
+@media (max-width: 600px) {
+    .card-grid {
+        flex-direction: column;
+    }
+}
